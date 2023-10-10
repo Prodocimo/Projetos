@@ -34,7 +34,7 @@ header > h1 {
   font-family: var(--font02);
 }
 
-header p {
+header > p {
   font-variant: small-caps;
   padding-bottom: 30px;
   font-size: 2.7vw;
