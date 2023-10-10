@@ -89,12 +89,12 @@ section > p {
   
   #img001 {
     background-image: url(imgs/laptop-short.jpg);
-    
+    background-attachment: unset;
   }
 
   #img002 {
     background-image: url(imgs/Luz-short.jpg);
-    
+    background-attachment: unset;
   }
 }
 
