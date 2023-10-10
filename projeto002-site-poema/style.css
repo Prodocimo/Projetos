@@ -1,99 +1,97 @@
 @charset "UTF-8";
 
 * {
-    margin: 0px;
-    padding: 0px;
+  margin: 0px;
+  padding: 0px;
 }
 
-@import url('https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap'); /*Font Passion One*/
-@import url('https://fonts.googleapis.com/css2?family=Sriracha&display=swap'); /*Font Sriracha*/
+@import url("https://fonts.googleapis.com/css2?family=Passion+One:wght@400;700;900&display=swap"); /*Font Passion One*/
+@import url("https://fonts.googleapis.com/css2?family=Sriracha&display=swap"); /*Font Sriracha*/
 
 :root {
-    --font01: verdana, geneva, tahoma, sans-serif;
-    --font02: 'Passion One', cursive, sans-serif;
-    --font03: 'Sriracha', cursive, sans-serif;
+  --font01: verdana, geneva, tahoma, sans-serif;
+  --font02: "Passion One", cursive, sans-serif;
+  --font03: "Sriracha", cursive, sans-serif;
 }
 
-html, body {
-    min-height: 100vh;
-    background-color: lightgray;
-    font-family: var(--font01);
+html,
+body {
+  min-height: 100vh;
+  background-color: lightgray;
+  font-family: var(--font01);
 }
 
 header {
-    background-color: black;
-    color: white;
-    text-align: center;
-
+  background-color: black;
+  color: white;
+  text-align: center;
 }
 
 header > h1 {
-    padding-top: 40px;
-    font-variant: small-caps;
-    padding-bottom: 40px;
-    font-size: 4.5vw;
-    font-family: var(--font02);
+  padding-top: 40px;
+  font-variant: small-caps;
+  padding-bottom: 40px;
+  font-size: 4.5vw;
+  font-family: var(--font02);
 }
 
 section {
-    padding-top: 10vh;
-    padding-bottom: 10vh;
-    line-height: 2em;
-    padding-left: 50px;
-    font-family: var(--font03);
-    font-size: 3.2vw;
-    padding: 3em;
+  padding-top: 10vh;
+  padding-bottom: 10vh;
+  line-height: 2em;
+  padding-left: 50px;
+  font-family: var(--font03);
+  font-size: 3.2vw;
+  padding: 3em;
 }
 
 section > p {
-    padding-bottom: 1em;
+  padding-bottom: 1em;
 }
 
 .normal {
-    background-color: white;
-    color: black;
+  background-color: white;
+  color: black;
 }
 
 .img {
-    background-color: #4f4f4f;
-    background-size: cover;
-    background-attachment: fixed;
-    color: white;
-    box-shadow: inset 6px 6px 14px  #0000006a;
+  background-color: #4f4f4f;
+  background-size: cover;
+  background-attachment: fixed;
+  color: white;
+  box-shadow: inset 6px 6px 14px #0000006a;
 }
 
 .img > p {
-    background-color: #0000007e;
-    color: white;
-    text-shadow: 1px 1px 1px black;
-    display: inline-block;
-    padding: 10px;
-    border-radius: 12px;
+  background-color: #0000007e;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  display: inline-block;
+  padding: 10px;
+  border-radius: 12px;
 }
 
 #img001 {
-    background-image: url(imgs/cup-of-coffee-1280537_1920.jpg);
+  background-image: url(imgs/cup-of-coffee-1280537_1920.jpg);
 }
 
 #img002 {
-    background-image: url(imgs/Luz.jpg);
+  background-image: url(imgs/Luz.jpg);
 }
 
 footer a {
-    text-decoration: none;
-    font-weight: bolder;
-    color: white;
+  text-decoration: none;
+  font-weight: bolder;
+  color: white;
 }
 
 footer a:hover {
-    text-decoration: underline;
-
+  text-decoration: underline;
 }
 
-
 footer {
-    background-color: black;
-    color: white;
-    text-align: center;
-    padding: 10px;
+  background-color: black;
+  color: white;
+  text-align: center;
+  padding: 10px;
 }
