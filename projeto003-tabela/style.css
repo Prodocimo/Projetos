@@ -4,3 +4,43 @@
     margin: 0px;
     padding: 0px;
 }
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+}
+
+h1 {
+    padding-bottom: 20px;
+}
+
+caption {
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 1em;
+    padding-bottom: 2px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 600px;
+    font-size: 1.3em;
+    box-shadow: 1px 1px 15px rgba(0, 0, 0, 0.474);
+    
+}
+
+th, td {
+    border: 2px solid black;
+    padding: 15px;
+}
+
+th.title {
+    background-color: gray;
+    color: white;
+    text-shadow: 0.5px 0.5px 0.5px black;
+}
+
+#numb{
+    text-align: right;
+}
+
