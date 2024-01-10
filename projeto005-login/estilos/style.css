@@ -66,3 +66,46 @@ div#formulario h1 {
 div#formulario p {
     font-size: 0.8em;
 }
+
+form > div > input[type=email] {
+    width: 150px;
+}
+
+form > div > input[type=password] {
+    width: 150px;
+}
+
+form > input[type=submit] {
+    display: block;
+    font-size: 1em;
+    width: 100px;
+    height: 40px;
+    margin: auto;
+
+    background-color: #F2762E;
+    box-shadow: 0px 0px 5px #00000054;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer; 
+    user-select: none;
+}
+
+
+form > input[type=submit]:hover {
+    background-color: #f25f29;
+}
+
+form > div.campo {
+    position: relative;
+    width: 255px;
+    height: 50px;
+    /* margin-bottom: 20px; */
+    margin-top: 5px;
+}
+
+form > div > a.botao {
+    position: absolute;
+    bottom: 10px;
+    right: 78px;
+    font-size: 0.6em;
+}
