@@ -37,7 +37,7 @@ section#login {
 
     background-color: white;
     width: 250px;
-    height: 500px;
+    height: 525px;
     border-radius: 20px;
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.45);
 
@@ -96,16 +96,34 @@ form > input[type=submit]:hover {
 }
 
 form > div.campo {
+    display: block;
     position: relative;
     width: 255px;
-    height: 50px;
-    /* margin-bottom: 20px; */
-    margin-top: 5px;
+    height: 54px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 13px;
+    /* margin: auto; */
+}
+
+div.campo > label {
+    display: none;
+}
+
+div.campo > input {
+    height: 40px;
+    border: 0.1px solid rgba(100, 100, 100, 0.720);
+    border-radius: 5px;
+}
+
+div.campo > input[placeholder]{
+    text-align: center;
 }
 
 form > div > a.botao {
+    color: #0E1126;
     position: absolute;
-    bottom: 10px;
+    bottom: 0px;
     right: 78px;
-    font-size: 0.6em;
+    font-size: 12px;
 }
