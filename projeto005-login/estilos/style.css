@@ -102,10 +102,9 @@ form > input[type=submit]:hover {
 form > div.campo {
     display: block;
     position: relative;
-    width: 255px;
+    margin: auto;
+    width: 180px;
     height: 60px;
-    margin-left: 13px;
-    /* margin: auto; */
 }
 
 div.campo > label {
@@ -118,15 +117,22 @@ div.campo > input {
     border-radius: 5px;
 }
 
+input#iLogin {
+    width: 180px;
+}
+
+input#iSenha {
+    width: 180px;
+}
+
 div.campo > input[placeholder]{
     text-align: center;
 }
-
 
 form > div > a.botao {
     color: #0E1126;
     position: absolute;
     bottom: 0px;
-    right: 78px;
+    right: 33px;
     font-size: 12px;
 }
