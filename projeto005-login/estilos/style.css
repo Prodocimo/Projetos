@@ -33,17 +33,22 @@ section#principal {
 }
 
 section#titulo {
-    background-color: white;
+
     width: 250px;
     height: 50px;
     margin-bottom: 10px;
     border-radius: 10px;
     padding: 5px;
+    
 }
 
-div#icone {
-    background: #0E1126 url(../imgs/papel\ de\ parede.jpg);
-    height: 50px;
+section#titulo > h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 2.5em;
+    letter-spacing: 5px;
+    color: #F2762E;
+    text-shadow: 0px 0px 10px rgba(0, 0, 0, 0.535);
 }
 
 section#login {
@@ -72,7 +77,13 @@ section > div#imagem {
     background: #0E1126 url(../imgs/papel\ de\ parede.jpg);
     height: 240px;
     background-size: cover;
-    background-position: center;
+    background-position: 53% 50%;
+}
+
+p#legenda {
+    width: 200px;
+    text-align: justify;
+    margin: auto;
 }
 
 p#register {
