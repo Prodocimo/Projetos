@@ -15,8 +15,14 @@ Desktop or high-resolution laptop – 1920 x 1080
         background-image: linear-gradient(to top, #731247, #0E1126);
     }
 
+    section#principal {
+        width: 580px;
+        height: 420px;
+    }
+
     section#login {
-        width: 80vw;
+        width: 580px;
+        height: 360px;
     }
 
     section#login > div#imagem {
@@ -28,10 +34,28 @@ Desktop or high-resolution laptop – 1920 x 1080
     section#login > div#formulario {
         float: right;
         width: 70%;
+        height: 360px;
+    }
+
+    p#legenda {
+        width: 240px;
+    }
+
+    form > div > a.esqueceu-senha {
+        color: #0E1126;
+        position: absolute;
+        bottom: 0px;
+        right: 29px;
+        font-size: 13px;
+    }
+
+    p#register {
+        margin-left: 90px;
+        margin-top: 20px;
     }
 
     div#formulario p {
-    font-size: 1.2em;
+    font-size: 1.1em;
     }   
 }
 
@@ -41,8 +65,14 @@ Desktop or high-resolution laptop – 1920 x 1080
         background-image: linear-gradient(to top, #731247, #0E1126);
     }
 
+    section#principal {
+        width: 800px;
+        height: 490px;
+    }
+
     section#login {
         width: 800px;
+        height: 430px;
     }
 
     section#login > div#imagem {
@@ -54,6 +84,7 @@ Desktop or high-resolution laptop – 1920 x 1080
     section#login > div#formulario {
         float: left;
         width: 50%;
+        height: 430px;
     }
 
     div#formulario h1 {
@@ -62,6 +93,23 @@ Desktop or high-resolution laptop – 1920 x 1080
 
     div#formulario p {
     font-size: 1.3em;
+    }
+
+    p#legenda {
+        width: 270px;
+    }
+
+    form > div > a.esqueceu-senha {
+        color: #0E1126;
+        position: absolute;
+        bottom: 0px;
+        right: 29px;
+        font-size: 13px;
+    }
+
+    p#register {
+        margin-left: 70px;
+        margin-top: 30px;
     }
 }
 
