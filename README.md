@@ -1,6 +1,7 @@
 # Projetos
 
-Link site linux: https://prodocimo.github.io/Projetos/projeto001-site-linux/
-Link site poema: https://prodocimo.github.io/Projetos/projeto002-site-poema/
+Para visualizar os projetos no site é só seguir o exemplo abaixo:
 
- 
+https://prodocimo.github.io/Projetos/Numeração do projeto mais o nome igual das pastas, olha o exemplo de baixo.
+
+https://prodocimo.github.io/Projetos/projeto005-login
